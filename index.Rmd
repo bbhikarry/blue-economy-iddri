@@ -88,7 +88,8 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 
 ## Pushing tourism into the Blue (responsibly)
 
-.left-column[
+.left-column[ **B.E** not showing Conservation or Energy type activities  
+
 
 ![](index_files/figure_html/marineadv.jpeg)
 
@@ -104,13 +105,19 @@ Tourism is the sector most affected by COVID. Recovery **will** see accelerated 
 
 >**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Tourism.
 
-#### Largely untapped local B.E. needs to be placed into a modern tech framework 
+#### Largely untapped **or statistically recorded** local B.E. needs to be placed into a modern tech framework. 
 
 
 ![](index_files/figure_html/sd.jpeg)
 
-To service the keywords **And** embedded in a partnership huge 
-on ESG. 
+Objectives: To **service the keywords** and **embed ESG partnership**. 
+
+---
+## Theory of Change
+
+<!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
+
+
 
 ---
 layout: false
@@ -126,7 +133,7 @@ layout: false
 ## Need to know
 
 .left-column[ 
-Future Tourism Program ID
+#### IDDRI Overview
 
 Submission due-date
 
