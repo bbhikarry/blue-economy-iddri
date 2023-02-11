@@ -120,6 +120,31 @@ Objectives: To **service the keywords** and **embed ESG partnership**.
 
 
 ---
+## Local lionfish fishery. A pilot 
+
+||Description|Indicators|MoV|Risks and Assumptions|
+|:---|:---|:---|:---|:---|
+|Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home/villa kitchens/eateries and restaurants||||
+|Outcomes|1. Reduce and destabilise *Pterois volitans* in local waters||||
+|Outputs|1. Lionfish filets kitchen etc||||
+|Activities|1. Prep workshops, dive derbies, pot making ||||  
+
+---
+## Web portal pilot
+
+||Description|Indicators|MoV|Risks and Assumptions|
+|:---|:---|:---|:---|:---|
+|Goal|1. Attract Blue economy tourism clientele||||
+||2. Improve responsible seafood selections ||||
+|Outcomes|1. Online campaign *to reduce load on other (popular) marine species* ||||
+||2. Enable fisher and restaurant feedback. *Obtain a feel for lionfish invasion level*||||
+|Outputs|1. Online/Ground lionfish reduction campaign||||
+||2. Enable digital feedback mechanism||||
+|Activities|1. Central booking system to improve 'blue oriented' customer base ||||  
+||2. Lionfish food prep, Invasives knowledgebase, responsible eating ethos and other related digital assets||||
+||3. Responsible restaurants meals directory (*www*)||||
+
+---
 layout: false
 
 ## Square image
