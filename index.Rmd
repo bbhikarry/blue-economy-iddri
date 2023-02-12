@@ -2,7 +2,7 @@
 title: " IDDRI Tobago Pilot"
 subtitle: "Catalysing the local tourism ecosystem to include BLUE"
 author: 
-  - "Tobago Hotel and Tourism Assox"
+  - "Tobago Hotel and Tourism Assoc"
   - "Environment Tobago"
 date: '`r Sys.Date()`'
 output:
@@ -34,8 +34,6 @@ library(xaringanthemer)
 style_mono_accent (base_color = "#43418A")
 
 ```
-
-
 
 ```{r, include=FALSE}
 library(countdown) 
@@ -85,16 +83,23 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 
 ## Pushing tourism into the Blue (responsibly)
 
-.left-column[ **B.E** not showing Conservation or Energy type activities  
+.left-column[ Recreational  &nbsp; **B.E.**  
 
 
 ![](index_files/figure_html/marineadv.jpeg)
-
+Energy & Fishery type activities missing. Why is this?
 ]
 
 .right-column[
 Tourism is the sector most affected by COVID. Country recovery **will** see accelerated tourism. Its sustainable growth requires tech.
 ]
+
+---
+## Protecting 'Blue'
+.left-column[![](index_files/figure_html/lionfish.png)]
+.right-column[Balance the act by protecting the Blue tourism economy And marine ecological systems:w
+]
+
 
 ---
 
@@ -110,13 +115,45 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 Objectives: To **service the Keywords** and **embed ESG partnerships**. 
 
 ---
-## Theory of Change
+## Get In Touch Portal 
+
+<!-- Theory of Change -->
 
 <!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
 
-Diagram of TOC goes here
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph {
+
+graph [rankdir = TB]
+
+#nodes
+node [shape = rectangle, style = filled, fontname = Helvetica, fontsize = 10]
+
+A [shape = folder, fillcolor = Beige, label = 'Is validated with evidence \n and stakeholder consultation']; 
+
+
+subgraph{rank = same; 
+B [label = 'Step 1 \n Addresses Blue Tourism development challenges', fillcolor = Bisque]; 
+C [label = 'Step 2 \n  Identifies what is needed for change. \n e.g. Common booking system. \n Blue product showcase and knowledgebase. \n Usage statistics. ', fillcolor = Linen];}
+
+subgraph{rank = same; D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. ', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and key actors', fillcolor = LightYellow];}
+
+# edge
+edge [arrowhead=vee, color = blue]
+
+B -> C-> D -> E
+
+}
+")
+
+```
 
 ---
+## Insert lionfish argument 
+
+here
+---
+
 ## Local lionfish fishery. A pilot 
 
 ||Description|Indicators|MoV|Risks and Assumptions|
@@ -140,6 +177,34 @@ Diagram of TOC goes here
 |Activities|1. Central booking system to improve 'blue oriented' customer base ||||  
 ||2. Lionfish food prep, Invasives knowledgebase, responsible eating ethos and other related digital assets||||
 ||3. Responsible restaurants meals directory (*www*)||||
+
+---
+
+## Lionfish Theory of Change
+
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph {
+
+graph[rankdir = TB]
+
+#nodes
+node[shape = rectangle, style = filled, fontname = Helvetica, fontsize = 10]
+
+A [shape = folder, fillcolor = Beige, label = 'Validate with evidence \n and stakeholder consultation']; 
+
+
+subgraph{rank = same; B [label = 'Step 1 \n Focus',fillcolor = orange]; C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];}
+
+subgraph{rank = same; D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and actors', fillcolor = LightYellow];}
+
+# edge
+edge [arrowhead=vee, color = blue]
+
+B -> C-> D -> E
+
+}
+")
+```
 
 ---
 layout: false
