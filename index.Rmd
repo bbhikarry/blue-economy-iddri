@@ -31,12 +31,8 @@ knitr::opts_chunk$set(
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_mono_accent (
-  base_color = "#43418A"
-#  primary_color = "#1381B0",
-#  secondary_color = "#FF961C",
-#  inverse_header_color = "#FFFFFF"
-)
+style_mono_accent (base_color = "#43418A")
+
 ```
 
 
@@ -48,6 +44,7 @@ library(countdown)
 
 ```{r, include=FALSE}
 bb <-"Bertrand Bhikarry"
+```
 
 ```{r, include=FALSE}
 et <-"Environment Tobago"
@@ -96,7 +93,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ]
 
 .right-column[
-Tourism is the sector most affected by COVID. Recovery **will** see accelerated tourism. To sustain that growth requires tech.
+Tourism is the sector most affected by COVID. Country recovery **will** see accelerated tourism. Its sustainable growth requires tech.
 ]
 
 ---
@@ -105,19 +102,19 @@ Tourism is the sector most affected by COVID. Recovery **will** see accelerated 
 
 >**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Tourism.
 
-#### Largely untapped **or statistically recorded** local B.E. needs to be placed into a modern tech framework. 
+#### Local B.E. needs to be placed into a modern tech framework with data gathering and information dissemination at its core. 
 
 
 ![](index_files/figure_html/sd.jpeg)
 
-Objectives: To **service the keywords** and **embed ESG partnership**. 
+Objectives: To **service the Keywords** and **embed ESG partnerships**. 
 
 ---
 ## Theory of Change
 
 <!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
 
-
+Diagram of TOC goes here
 
 ---
 ## Local lionfish fishery. A pilot 
