@@ -62,7 +62,6 @@ canari <-"Caribbean Natural Resources Institute"
 thata <-"Tobago Hotel and Tourism Association"
 ```
 
-
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
   image_url = "https://drive.google.com/uc?export=view&id=11GveNpJ7VdDl4t1pUGszDuM10P-KCMaB"
@@ -81,33 +80,11 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-## Pushing tourism into the Blue (responsibly)
+## Framing Tobago's IDDRI pilot
 
-.left-column[ Recreational  &nbsp; **B.E.**  
+>**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Blue oriented tourism.
 
-
-![](index_files/figure_html/marineadv.jpeg)
-Energy & Fishery type activities missing. Why is this?
-]
-
-.right-column[
-Tourism is the sector most affected by COVID. Country recovery **will** see accelerated tourism. Its sustainable growth requires tech.
-]
-
----
-## Protecting 'Blue'
-.left-column[![](index_files/figure_html/lionfish.png)]
-.right-column[Balance the act by protecting the Blue tourism economy And marine ecological systems:w
-]
-
-
----
-
-## Framing the IDDRI pilot
-
->**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Tourism.
-
-#### Local B.E. needs to be placed into a modern tech framework with data gathering and information dissemination at its core. 
+#### Local 'Blue' needs to be placed into a modern tech framework with data gathering and information dissemination at its core. Should also be integral to actions geared to '*keywords*' 
 
 
 ![](index_files/figure_html/sd.jpeg)
@@ -115,6 +92,37 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 Objectives: To **service the Keywords** and **embed ESG partnerships**. 
 
 ---
+
+## Pushing tourism into the Blue (responsibly)
+
+.left-column[ Recreational  &nbsp; **B.E.**  
+
+
+![](index_files/figure_html/marineadv.jpeg)
+Fishery type activities are missing. Uno momento.
+]
+
+.right-column[
+Tourism is the sector most affected by COVID. Country recovery **will** see accelerated tourism. Its sustainable growth requires tech.
+]
+
+---
+
+## Protecting our Blue 
+
+.left-column[
+*Pterois volitans* poses a major and direct threat to ecologies, ecosystems and economies.  
+![](index_files/figure_html/lionfish.png)
+]
+
+.right-column[Balance pilot project actions by tackling this threat to Blue tourism and local marine ecological systems.
+
+*Hint*  Several marine recreational activities enable lionfish tracking, hunting (catching) and serving.
+]
+
+
+---
+
 ## Get In Touch Portal 
 
 <!-- Theory of Change -->
@@ -122,21 +130,28 @@ Objectives: To **service the Keywords** and **embed ESG partnerships**.
 <!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
 
 ```{r, echo=FALSE}
+
 DiagrammeR::grViz("digraph {
 
 graph [rankdir = TB]
 
 #nodes
-node [shape = rectangle, style = filled, fontname = Helvetica, fontsize = 10]
+
+node [shape = rectangle, style = filled, fontname = Helvetica, fontsize = 12]
 
 A [shape = folder, fillcolor = Beige, label = 'Is validated with evidence \n and stakeholder consultation']; 
 
-
 subgraph{rank = same; 
 B [label = 'Step 1 \n Addresses Blue Tourism development challenges', fillcolor = Bisque]; 
-C [label = 'Step 2 \n  Identifies what is needed for change. \n e.g. Common booking system. \n Blue product showcase and knowledgebase. \n Usage statistics. ', fillcolor = Linen];}
 
-subgraph{rank = same; D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. ', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and key actors', fillcolor = LightYellow];}
+C [label = 'Step 2 \n  Identifies what is needed for change. \n e.g. Common booking system. \n Blue product showcase and knowledgebase. \n Usage statistics. ', fillcolor = Linen];
+}
+
+subgraph{rank = same; 
+D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. ', fillcolor = LightGoldenrodYellow]; 
+
+E [label = 'Step 4 \n Identify partners and key actors', fillcolor = LightYellow];
+}
 
 # edge
 edge [arrowhead=vee, color = blue]
@@ -149,32 +164,34 @@ B -> C-> D -> E
 ```
 
 ---
-## Insert lionfish argument 
-
-here
----
 
 ## Local lionfish fishery. A pilot 
 
 ||Description|Indicators|MoV|Risks and Assumptions|
 |:---|:---|:---|:---|:---|
-|Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home/villa kitchens/eateries and restaurants||||
+|Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home, villa kitchens, eateries and restaurants||||
 |Outcomes|1. Reduce and destabilise *Pterois volitans* in local waters||||
-|Outputs|1. Lionfish filets kitchen etc||||
-|Activities|1. Prep workshops, dive derbies, pot making ||||  
+|Outputs|1. Lionfish on a grocery shelf||||  
+||2. Lionfish as a school feeding programme menu item ||||
+|Activities|1. Diver derby||||
+||2. Prep workshop in Hotel & Tourism School||||
+||3. Prep workshop at Schools Nutrition Center ||||
+||4. Responsible fish cook-off||||
+||5. Fish pot construction workshop||||
+
 
 ---
-## Web portal pilot
+## Web portal 
 
 ||Description|Indicators|MoV|Risks and Assumptions|
 |:---|:---|:---|:---|:---|
-|Goal|1. Attract Blue economy tourism clientele||||
+|Goal|1. Attract Blue recreation clientele||||
 ||2. Improve responsible seafood selections ||||
 |Outcomes|1. Online campaign *to reduce load on other (popular) marine species* ||||
-||2. Enable fisher and restaurant feedback. *Obtain a feel for lionfish invasion level*||||
-|Outputs|1. Online/Ground lionfish reduction campaign||||
-||2. Enable digital feedback mechanism||||
-|Activities|1. Central booking system to improve 'blue oriented' customer base ||||  
+||2. Enable fisher and restaurant feedback. *to obtain a feel for lionfish invasion level and demand for filets*||||
+|Outputs|1. Online/On-ground lionfish reduction campaign||||
+||2. Digital feedback mechanism enabling onestop bookings for rooms and tours ||||
+|Activities|1. Creation of booking system to improve 'blue oriented' customer base ||||  
 ||2. Lionfish food prep, Invasives knowledgebase, responsible eating ethos and other related digital assets||||
 ||3. Responsible restaurants meals directory (*www*)||||
 
@@ -193,7 +210,11 @@ node[shape = rectangle, style = filled, fontname = Helvetica, fontsize = 10]
 A [shape = folder, fillcolor = Beige, label = 'Validate with evidence \n and stakeholder consultation']; 
 
 
-subgraph{rank = same; B [label = 'Step 1 \n Focus',fillcolor = orange]; C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];}
+subgraph
+{rank = same; 
+B [label = 'Step 1 \n Focus', fillcolor = orange]; 
+C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];
+}
 
 subgraph{rank = same; D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and actors', fillcolor = LightYellow];}
 
@@ -204,6 +225,57 @@ B -> C-> D -> E
 
 }
 ")
+```
+---
+## OST Lionfishery
+
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph
+                  {graph [rankdir = TD, compound = true]
+                  
+                  # primary nodes
+                  node [shape = rectangle, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 12]
+                  
+A [label = 'Reduced strain on the coastal ecological balance '];
+
+# Row 2
+
+B [label = 'Improved take by fishers'];
+       
+C [label = 'Improved level of lionfish consumption in homes etc'];
+
+D [label = 'Improved understanding of marine ecology'];
+
+# Row 3 Col 1
+
+1 [label = 'Reward catchers with cash'];
+ 
+2 [label = 'Lionfish becomes known as prime catch'];
+
+3 [label = 'Introduce and Mentor pot fishing'];
+
+# Row 3 Col 2
+
+4;
+5;
+6;
+
+# Row 3 col 3
+
+7;
+8; 
+9;
+                  
+                  
+# edges
+A ->{B C D};
+B ->{1 2 3};
+C ->{4 5 6};
+D ->{7 8 9};
+                  
+                  }                  
+                  ")
+
 ```
 
 ---
@@ -220,7 +292,7 @@ layout: false
 ## Need to know
 
 .left-column[ 
-#### IDDRI Overview
+#### IDDRI Tobago Overview
 
 Submission due-date
 
@@ -327,9 +399,8 @@ class: center, middle
 
 <dl>
 <dt>An application has to be made by March 30</dt>
-  <dd><strong>Who</strong>?</dd>
+<dd><strong>Who</strong>?</dd>
 </dl>
----
 
 
 
