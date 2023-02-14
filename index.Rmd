@@ -123,47 +123,6 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 
 ---
 
-## Get In Touch Portal 
-
-<!-- Theory of Change -->
-
-<!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
-
-```{r, echo=FALSE}
-
-DiagrammeR::grViz("digraph {
-
-graph [rankdir = TB]
-
-#nodes
-
-node [shape = rectangle, style = filled, fontname = Helvetica, fontsize = 12]
-
-A [shape = folder, fillcolor = Beige, label = 'Is validated with evidence \n and stakeholder consultation']; 
-
-subgraph{rank = same; 
-B [label = 'Step 1 \n Addresses Blue Tourism development challenges', fillcolor = Bisque]; 
-
-C [label = 'Step 2 \n  Identifies what is needed for change. \n e.g. Common booking system. \n Blue product showcase and knowledgebase. \n Usage statistics. ', fillcolor = Linen];
-}
-
-subgraph{rank = same; 
-D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. ', fillcolor = LightGoldenrodYellow]; 
-
-E [label = 'Step 4 \n Identify partners and key actors', fillcolor = LightYellow];
-}
-
-# edge
-edge [arrowhead=vee, color = blue]
-
-B -> C-> D -> E
-
-}
-")
-
-```
-
----
 
 ## Local lionfish fishery. A pilot 
 
@@ -179,6 +138,140 @@ B -> C-> D -> E
 ||4. Responsible fish cook-off||||
 ||5. Fish pot construction workshop||||
 
+---
+## OST Lionfishery
+
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph
+                  {graph [rankdir = LR]
+                  
+                  # primary nodes
+                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22]
+                  
+A [label = 'Reduced strain on the coastal ecological balance '];
+
+# Row 2
+
+B [label = 'Improved take by fishers'];
+       
+C [label = 'Improved level of lionfish consumption in homes hotels  etc'];
+
+D [label = 'Improved public understanding of lionfish threat to marine ecology'];
+
+# Row 3 Col 1
+
+1 [label = 'Reward catchers with cash'];
+ 
+2 [label = 'Lionfish meme hunt campaigns'];
+
+3 [label = 'Introduce and Mentor pot fishing'];
+
+# Row 3 Col 2
+
+4 [label ='Sell to restaurants, homes, eateries'];
+5 [label ='Introduce filets to nursing homes, \n Schools feeding as menu item'];
+6 [label ='Provide low cost 2kg re-usable icepacks to lionfishers '];
+
+# Row 3 col 3
+
+7 [label ='Spearfishing derbies - videoed'];
+8 [label = 'Lionfish cook-offs'];
+9 [label = 'Recycling drive \n for re-bar and fishnet chunks for pot construction'];
+                  
+                  
+# edges
+A ->{B C D};
+B ->{1 2 3};
+C ->{4 5 6};
+D ->{7 8 9};
+                  
+                  }                  
+                  ")
+
+```
+
+---
+## Lionfish fishery 
+
+Theory of change
+
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph {
+
+graph[rankdir = TB]
+
+#nodes
+node[shape = rectangle, style = filled, fontname = Helvetica, fixedsize = false]
+
+A [shape = folder, fillcolor = Beige, label = 'Validate with evidence \n and stakeholder consultation']; 
+
+
+subgraph
+{rank = same; 
+node[shape = box, style = filled, fixedsize = false]
+
+B [label = 'Step 1 \n Focus', fillcolor = orange]; 
+C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];
+}
+
+subgraph{rank = same; 
+D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and actors', fillcolor = LightYellow];}
+
+# edge
+edge [arrowhead=vee, color = blue]
+
+B -> C-> D -> E
+
+}
+")
+```
+
+---
+
+
+## Get In Touch. The web portal 
+
+**Theory of change** (4 Steps)
+
+<!-- Theory of Change -->
+
+<!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
+
+```{r, echo=FALSE}
+
+DiagrammeR::grViz("digraph {
+graph [rankdir = LR;]
+
+#nodes
+
+node [shape = box, style = filled, fontname = Helvetica]
+
+A [shape = plaintext, fillcolor = WhiteSmoke, label = 'All steps validated \n with evidence and stakeholder consultation']; 
+
+subgraph{ rank= same;     
+B [label = 'Step 1 \n Address current Blue Tourism niche development challenges leading with a comprehensive digital strategy.\n Contribute to ecological resiliency in the near to  medium term by developing an island-based lionfish fishery.', fillcolor = Bisque, shape = box]; 
+
+C [label = 'Step 2 \n  Needed for change: \n Timely and useful communication  \n A Common booking system to close  tours and room enquiries efficiently. \n A Blue product showcase and knowledgebase. \n Usage statistics.', fillcolor = Linen];
+}
+
+subgraph{fixedsize = false;
+
+D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. \n Tobago coastal zones including its reefs \n i.e a substantial part of its tourism product \n has low resiliency to changing climate.', fillcolor = LightGoldenrodYellow]; 
+
+E [label = 'Step 4 \n Build a symbiotic network for bookings \n by forging business partnerships with accommodation providers \n and tour guides.\n Build another similar network with the food value chain  to include \n fishers, restaurateurs, schools feeding nutrition center, \n  hotel school, household cooks, caterers etc. ', fillcolor = LightYellow];
+}
+
+# edge
+edge [arrowhead=vee, color = blue]
+
+B -> C-> D -> E
+
+E -> A [style = invis]
+
+}
+")
+
+```
 
 ---
 ## Web portal 
@@ -195,46 +288,16 @@ B -> C-> D -> E
 ||2. Lionfish food prep, Invasives knowledgebase, responsible eating ethos and other related digital assets||||
 ||3. Responsible restaurants meals directory (*www*)||||
 
+
 ---
-
-## Lionfish Theory of Change
-
-```{r, echo=FALSE}
-DiagrammeR::grViz("digraph {
-
-graph[rankdir = TB]
-
-#nodes
-node[shape = rectangle, style = filled, fontname = Helvetica, fontsize = 10]
-
-A [shape = folder, fillcolor = Beige, label = 'Validate with evidence \n and stakeholder consultation']; 
-
-
-subgraph
-{rank = same; 
-B [label = 'Step 1 \n Focus', fillcolor = orange]; 
-C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];
-}
-
-subgraph{rank = same; D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and actors', fillcolor = LightYellow];}
-
-# edge
-edge [arrowhead=vee, color = blue]
-
-B -> C-> D -> E
-
-}
-")
-```
----
-## OST Lionfishery
+## Opportunity, Solutions for a local lionfishery
 
 ```{r, echo=FALSE}
 DiagrammeR::grViz("digraph
-                  {graph [rankdir = TD, compound = true]
+                  {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = rectangle, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 12]
+                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
@@ -242,29 +305,29 @@ A [label = 'Reduced strain on the coastal ecological balance '];
 
 B [label = 'Improved take by fishers'];
        
-C [label = 'Improved level of lionfish consumption in homes etc'];
+C [label = 'Improved level of lionfish consumption in homes hotels  etc'];
 
-D [label = 'Improved understanding of marine ecology'];
+D [label = 'Improved public understanding of lionfish threat to marine ecology'];
 
 # Row 3 Col 1
 
 1 [label = 'Reward catchers with cash'];
  
-2 [label = 'Lionfish becomes known as prime catch'];
+2 [label = 'Lionfish meme hunt campaigns'];
 
 3 [label = 'Introduce and Mentor pot fishing'];
 
 # Row 3 Col 2
 
-4;
-5;
-6;
+4 [label ='Sell to restaurants, homes, eateries'];
+5 [label ='Introduce filets to nursing homes, \n Schools feeding as menu item'];
+6 [label ='Provide low cost 2kg re-usable icepacks to lionfishers '];
 
 # Row 3 col 3
 
-7;
-8; 
-9;
+7 [label ='Spearfishing derbies - videoed'];
+8 [label = 'Lionfish cook-offs'];
+9 [label = 'Recycling drive \n for re-bar and fishnet chunks for pot construction'];
                   
                   
 # edges
@@ -277,6 +340,23 @@ D ->{7 8 9};
                   ")
 
 ```
+
+---
+## Plan for slideshow
+
+Separate the mini-projects Lionfish and Get In Touch web like;
+
+**Logical Frame for Lionfishery project**
+
+Useful and well understood for project proposing, implementation and reporting
+
+
+**Theory of Change for Website.**
+
+TOC helps to diagrammatically keep the bigger picture in sight wcwn as the discussions delve down to resource acquisition, usage and reporting.
+
+
+
 
 ---
 layout: false
