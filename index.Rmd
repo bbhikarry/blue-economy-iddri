@@ -82,6 +82,8 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 
 ## Framing Tobago's IDDRI pilot
 
+<!-- Quantify the scope of the problem and connect it to my audience -->
+
 >**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Blue oriented tourism.
 
 #### Local 'Blue' needs to be placed into a modern tech framework with data gathering and information dissemination at its core. Should also be integral to actions geared to '*keywords*' 
@@ -141,12 +143,12 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 ---
 ## OST Lionfishery
 
-```{r, echo=FALSE}
+```{r echo=FALSE, fig.height=5.5, fig.width=6}
 DiagrammeR::grViz("digraph
-                  {graph [rankdir = LR]
+                 ost {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22]
+                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
@@ -187,6 +189,7 @@ D ->{7 8 9};
                   
                   }                  
                   ")
+
 
 ```
 
@@ -237,7 +240,7 @@ B -> C-> D -> E
 
 <!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
 
-```{r, echo=FALSE}
+```{r echo=FALSE, fig.height=5.5, fig.width=7}
 
 DiagrammeR::grViz("digraph {
 graph [rankdir = LR;]
@@ -292,12 +295,12 @@ E -> A [style = invis]
 ---
 ## Opportunity, Solutions for a local lionfishery
 
-```{r, echo=FALSE}
+```{r echo=FALSE, fig.height=5, fig.width=8}
 DiagrammeR::grViz("digraph
                   {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22]
+                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22, color=LightGray]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
@@ -331,6 +334,7 @@ D [label = 'Improved public understanding of lionfish threat to marine ecology']
                   
                   
 # edges
+edge [color=LightGray]
 A ->{B C D};
 B ->{1 2 3};
 C ->{4 5 6};
@@ -338,6 +342,8 @@ D ->{7 8 9};
                   
                   }                  
                   ")
+
+
 
 ```
 
