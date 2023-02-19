@@ -1,9 +1,9 @@
 ---
-title: " IDDRI Tobago Pilot"
-subtitle: "Catalysing the local tourism ecosystem to include BLUE"
+title: "Catalysing local tourism to include BLUE"
+subtitle: "Pilot Tobago: The IDDRI project"
 author: 
-  - "Tobago Hotel and Tourism Assoc"
-  - "Environment Tobago"
+    - "Gofers: Environment Tobago & Tobago Hotel and Tourism Association"
+    - "Region Lead: Caribbean Natural Resources Institute"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -31,8 +31,11 @@ knitr::opts_chunk$set(
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_mono_accent (base_color = "#43418A")
-
+style_mono_accent (base_color = "#43418A",
+ header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
 ```
 
 ```{r, include=FALSE}
@@ -80,16 +83,15 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-## Framing Tobago's IDDRI pilot
+## Framing IDDRI Tobago pilot
 
 <!-- Quantify the scope of the problem and connect it to my audience -->
 
 >**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Blue oriented tourism.
 
-#### Local 'Blue' needs to be placed into a modern tech framework with data gathering and information dissemination at its core. Should also be integral to actions geared to '*keywords*' 
+#### Local 'Blue' needs to be placed into a modern tech framework with data gathering and information dissemination at its core.
 
-
-![](index_files/figure_html/sd.jpeg)
+![Sustaiable development](index_files/figures/dtl.png)
 
 Objectives: To **service the Keywords** and **embed ESG partnerships**. 
 
@@ -100,8 +102,8 @@ Objectives: To **service the Keywords** and **embed ESG partnerships**.
 .left-column[ Recreational  &nbsp; **B.E.**  
 
 
-![](index_files/figure_html/marineadv.jpeg)
-Fishery type activities are missing. Uno momento.
+![arine adventuresM](index_files/figures/marineadv.jpeg)
+Fishery type activities are missing. One oh  momento.
 ]
 
 .right-column[
@@ -114,15 +116,25 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 
 .left-column[
 *Pterois volitans* poses a major and direct threat to ecologies, ecosystems and economies.  
-![](index_files/figure_html/lionfish.png)
+
+![Getty Image](index_files/figures/lionfish.jpg)
+
+It follows that actions to control lionfish (*population*) become priority for the tourism sector.
 ]
 
-.right-column[Balance pilot project actions by tackling this threat to Blue tourism and local marine ecological systems.
+.right-column[*Note to self*:
+Balance pilot project actions by tackling this threat to Blue tourism and local marine ecological systems.
 
-*Hint*  Several marine recreational activities enable lionfish tracking, hunting (catching) and serving.
+*Hint*:  Several marine recreational activities enable lionfish tracking, hunting (catching) and serving.
+
+*Questions*: 
+
+  1. What is the likelihood of stemming the lionfish population curve before the habitats are destroyed? 
+  1. If the probable outcome is bad why not bring in grouper (fish) from the Pacific?
+  
+>**Possible project action**: Bring Grouper from the Maldives to Tobago (Joint activity) or ar least do a desktop research on successful specie introductions
+
 ]
-
-
 ---
 
 
@@ -141,64 +153,69 @@ Tourism is the sector most affected by COVID. Country recovery **will** see acce
 ||5. Fish pot construction workshop||||
 
 ---
-## OST Lionfishery
-
-```{r echo=FALSE, fig.height=5.5, fig.width=6}
+## Local lionfishery. As opportunity
+```{r echo=FALSE, fig.height=5, fig.width=8}
 DiagrammeR::grViz("digraph
-                 ost {graph [rankdir = LR]
+                  {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica]
+                  node [shape = box, style = filled,fillcolor = Beige, fontname = Helvetica, fontsize = 22, color=LightGray]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
 # Row 2
 
-B [label = 'Improved take by fishers'];
+B [label = 'Improved take'];
        
-C [label = 'Improved level of lionfish consumption in homes hotels  etc'];
+C [label = 'Improved lionfish consumption in \n homes hotels eateries..'];
 
-D [label = 'Improved public understanding of lionfish threat to marine ecology'];
+D [label = 'Greater public understanding of lionfish threat \n to marine ecology, socioenvironment, GDP'];
 
 # Row 3 Col 1
 
-1 [label = 'Reward catchers with cash'];
+1 [label = 'Cash the Catch'];
  
-2 [label = 'Lionfish meme hunt campaigns'];
+2 [label = 'Lionfish weekends (Hunt campaigns)'];
 
-3 [label = 'Introduce and Mentor pot fishing'];
+3 [label = 'Introduce Mentor Monitor pot fishing'];
 
 # Row 3 Col 2
 
 4 [label ='Sell to restaurants, homes, eateries'];
-5 [label ='Introduce filets to nursing homes, \n Schools feeding as menu item'];
-6 [label ='Provide low cost 2kg re-usable icepacks to lionfishers '];
+5 [label ='Introduce to nursing homes & schools feeding as menu item'];
+6 [label ='Low cost 2kg reusable icepacks', style=filled, color=SeaGreen, fillcolor=AquaMarine];
 
 # Row 3 col 3
 
-7 [label ='Spearfishing derbies - videoed'];
-8 [label = 'Lionfish cook-offs'];
-9 [label = 'Recycling drive \n for re-bar and fishnet chunks for pot construction'];
+7 [label ='Hunts - videoed'];
+8 [label = 'Layday Lionfish limes. (Cook-offs)'];
+9 [label = 'Recycling drive \n for pot materials'];
+10 [label ='Import Pacific goliath groupers as a predator'];
+11 [label ='No Hunt grouper campaign'];
                   
                   
 # edges
+edge [color=LightGray]
 A ->{B C D};
 B ->{1 2 3};
 C ->{4 5 6};
-D ->{7 8 9};
+D ->{7 8 9 10 11};
                   
                   }                  
                   ")
 
 
+
 ```
 
 ---
-## Lionfish fishery 
+## Rollin in the deep
 
-Theory of change
+.panelset.sideways[
+.panel[.panel-name[The Approach]
 
-```{r, echo=FALSE}
+```{r echo=FALSE}
+
 DiagrammeR::grViz("digraph {
 
 graph[rankdir = TB]
@@ -227,7 +244,16 @@ B -> C-> D -> E
 
 }
 ")
+
 ```
+]
+
+.panel[.panel-name[Briefly explained here]
+
+  Well we can but perhaps another time. (A lot of text goes here would video recording suffice? )
+]
+
+]
 
 ---
 
@@ -240,16 +266,16 @@ B -> C-> D -> E
 
 <!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
 
-```{r echo=FALSE, fig.height=5.5, fig.width=7}
+```{r echo=FALSE}
 
 DiagrammeR::grViz("digraph {
-graph [rankdir = LR;]
+graph [rankdir = RL;]
 
 #nodes
 
-node [shape = box, style = filled, fontname = Helvetica]
+node [shape=plaintext, style= filled, fontname = Helvetica]
 
-A [shape = plaintext, fillcolor = WhiteSmoke, label = 'All steps validated \n with evidence and stakeholder consultation']; 
+A [shape = plaintext, label = 'All steps validated \n with evidence and stakeholder consultation']; 
 
 subgraph{ rank= same;     
 B [label = 'Step 1 \n Address current Blue Tourism niche development challenges leading with a comprehensive digital strategy.\n Contribute to ecological resiliency in the near to  medium term by developing an island-based lionfish fishery.', fillcolor = Bisque, shape = box]; 
@@ -275,29 +301,73 @@ E -> A [style = invis]
 ")
 
 ```
+---
+## Web portal rationalised
+
+<!-- frame the panel -->
+.panelset.sideways.right[
+
+
+.panel[.panel-name[The Problem]
+One
+]
+.panel[.panel-name[Our Solution]
+Two
+]
+
+.panel[.panel-name[The Team]
+Three
+
+]
+
+.panel[.panel-name[Milestones]
+Four
+
+]
+
+.panel[.panel-name[Team]
+Three
+
+]
+
+<!-- panel frame ends -->
+]
+
 
 ---
-## Web portal 
+# Revenue (Ability to Sustain)
+
+.left-column[### Model]
+
+.right-column[### Consumer
+### Supplier
+### Quality control    
+]
+
+
+
+---
+## Portal logframe
 
 ||Description|Indicators|MoV|Risks and Assumptions|
 |:---|:---|:---|:---|:---|
-|Goal|1. Attract Blue recreation clientele||||
-||2. Improve responsible seafood selections ||||
-|Outcomes|1. Online campaign *to reduce load on other (popular) marine species* ||||
-||2. Enable fisher and restaurant feedback. *to obtain a feel for lionfish invasion level and demand for filets*||||
-|Outputs|1. Online/On-ground lionfish reduction campaign||||
-||2. Digital feedback mechanism enabling onestop bookings for rooms and tours ||||
-|Activities|1. Creation of booking system to improve 'blue oriented' customer base ||||  
-||2. Lionfish food prep, Invasives knowledgebase, responsible eating ethos and other related digital assets||||
-||3. Responsible restaurants meals directory (*www*)||||
+|GOAL|1. **Attract** Blue recreation clientele||||
+||2. **Improve** responsible seafood selections ||||
+|OUTCOMES|1. **Online campaign** to reduce load on other (popular) marine species ||||
+||2. **Enable** fisher and restaurant **feedback** to obtain a feel for lionfish invasion level and demand for filets||||
+|OUTPUTS|1. **Online/On-ground multipart lionfish reduction campaign**||||
+||2. Digital **portal enabling Onestop general knowledgebase as well as bookings** for rooms and tours ||||
+|ACTIVITIES|1. **Creation of booking system** to improve 'blue oriented' customer base ||||  
+||2. Lionfish food prep workshops, Responsible eating **Radio/TV/YouTube** show and other related digital strategies as advised||||
+||3. **Responsible catch restaurants** listing (*menus*?)||||
 
 
 ---
 ## Opportunity, Solutions for a local lionfishery
 
-```{r echo=FALSE, fig.height=5, fig.width=8}
+```{r echo=FALSE, fig.height=5, fig.width=7.5}
 DiagrammeR::grViz("digraph
-                  {graph [rankdir = LR]
+                  {graph [rankdir = RL]
                   
                   # primary nodes
                   node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22, color=LightGray]
@@ -367,10 +437,10 @@ TOC helps to diagrammatically keep the bigger picture in sight wcwn as the discu
 ---
 layout: false
 
-## Square image
+## Project Leader
 
 <center>
-<img src="index_files/figure_html/marineadv.jpeg" alt="GithHub Octocat" height="500px"/>
+<img src="https://www.cd-links.org/wp-content/uploads/2015/09/IDDRI2015-transparent-300x300.png" alt="IDDRI" height="300px"/>
 </center>
 
 ---
@@ -484,8 +554,8 @@ class: center, middle
 ## Up for discussion
 
 <dl>
-<dt>An application has to be made by March 30</dt>
-<dd><strong>Who</strong>?</dd>
+<dt>A contract has to be signed</dt>
+<dd><strong>Who? When?</strong>?</dd>
 </dl>
 
 
