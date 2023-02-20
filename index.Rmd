@@ -256,12 +256,9 @@ D ->{7 8 9 10 11};
 Shades of Adele.....  So. We have looked at two ideas which works with/for each other and fits (as well) into the bigger scheme of IDDRI thinking. Will they do the job? Enter the acid test (next panel). 
 
 
-```{r echo=FALSE}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rYEDA3JcQqw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fmCoUjOMXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-```
 
 ]
 
