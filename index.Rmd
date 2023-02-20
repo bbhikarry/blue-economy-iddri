@@ -87,9 +87,9 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 
 <!-- Quantify the scope of the problem and connect it to my audience . Achieve this in this slide by .panelset.sideways[] -->
 
->**Keywords**: Digital Transformation Leadership, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.
+>**Keywords**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.
 
-#### Local 'Blue' needs to be placed into a modern tech framework (*i.e DTL*) with data gathering and information dissemination at its core.
+#### Local 'Blue Economy' is lacking modern tech framework (*i.e DT*) with data gathering and information dissemination at its core.
 
 
 ```{r echo=FALSE, fig.height=4.5, fig.width=7.5}
@@ -100,15 +100,15 @@ node
 [shape=plaintext,styled=true, fontname=Helvetica]
 
 A[label='Achieve SDGs '];
-B[label=' Sustain DTL '];
-C[label='  Create knowledge  '];
-D[label=' Innovate'];
-E[label=' Motivate '];
-F[label=' Align outward '];
-G[label=' Partnerships '];
+B[label=' Sustainable \n Digital Transformation '];
+C[label='  Teaches  '];
+D[label=' Motivates'];
+E[label=' Enables '];
+F[label=' Aligns '];
+G[label=' Helps partnerships '];
 
 edge 
-[color=blue, arrowhead=vee]
+[color=LightBlue, arrowhead=vee]
 {B->C->D->E->F->G->B}->A
 }")
 
@@ -190,7 +190,7 @@ DiagrammeR::grViz("digraph
                   {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = box, style = filled,fillcolor = Beige, fontname = Helvetica, fontsize = 22, color=Gray]
+                  node [shape = plaintext, style = filled, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22, color=Blue]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
@@ -208,13 +208,13 @@ D [label = 'Greater public understanding of lionfish threat \n to marine ecology
  
 2 [label = 'Lionfish weekends (Hunt campaigns)'];
 
-3 [label = 'Introduce Mentor Monitor pot fishing'];
+3 [label = 'Introduce-Mentor-Monitor pot fishing'];
 
 # Row 3 Col 2
 
 4 [label ='Sell to restaurants, homes, eateries'];
 5 [label ='Introduce to nursing homes & schools feeding as menu item'];
-6 [label ='Low cost 2kg reusable icepacks', style=filled, color=SeaGreen, fillcolor=AquaMarine];
+6 [label ='Low cost 2kg REUSABLE icepacks', style=filled, fillcolor=White];
 
 # Row 3 col 3
 
@@ -226,7 +226,7 @@ D [label = 'Greater public understanding of lionfish threat \n to marine ecology
                   
                   
 # edges
-edge [color=Gray]
+edge [color=LightBlue]
 A ->{B C D};
 B ->{1 2 3};
 C ->{4 5 6};
@@ -234,8 +234,6 @@ D ->{7 8 9 10 11};
                   
                   }                  
                   ")
-
-
 
 ```
 
@@ -302,96 +300,44 @@ B -> C-> D -> E
 ]
 
 ---
+## Web services
 
+.panelset.sideways[
 
-## Get In Touch. The web portal 
+.panel[.panel-name[Financial perspective]
 
-**Theory of change** (4 Steps)
+  <!-- 1. **Financial perspective** -->
+  * Increased business
+  * Reduced input costs 
+  * Less labour costs
+]    
+    
+.panel[.panel-name[ Business process perspective] 
 
-<!-- Theory of Change -->
-
-<!-- https://www.cvereferenceguide.org/index.php/en/design/creating-theory-change -->
-
-```{r echo=FALSE}
-
-DiagrammeR::grViz("digraph {
-graph [rankdir = RL;]
-
-#nodes
-
-node [shape=plaintext, style= filled, fontname = Helvetica]
-
-A [shape = plaintext, label = 'All steps validated \n with evidence and stakeholder consultation']; 
-
-subgraph{ rank= same;     
-B [label = 'Step 1 \n Address current Blue Tourism niche development challenges leading with a comprehensive digital strategy.\n Contribute to ecological resiliency in the near to  medium term by developing an island-based lionfish fishery.', fillcolor = Bisque, shape = box]; 
-
-C [label = 'Step 2 \n  Needed for change: \n Timely and useful communication  \n A Common booking system to close  tours and room enquiries efficiently. \n A Blue product showcase and knowledgebase. \n Usage statistics.', fillcolor = Linen];
-}
-
-subgraph{fixedsize = false;
-
-D [label = 'Step 3 \n Reflect assumptions and risks e.g \n Local providers slow to adopt E-practises. \n Trust in advertising a minus factor. \n Tobago coastal zones including its reefs \n i.e a substantial part of its tourism product \n has low resiliency to changing climate.', fillcolor = LightGoldenrodYellow]; 
-
-E [label = 'Step 4 \n Build a symbiotic network for bookings \n by forging business partnerships with accommodation providers \n and tour guides.\n Build another similar network with the food value chain  to include \n fishers, restaurateurs, schools feeding nutrition center, \n  hotel school, household cooks, caterers etc. ', fillcolor = LightYellow];
-}
-
-# edge
-edge [arrowhead=vee, color = blue]
-
-B -> C-> D -> E
-
-E -> A [style = invis]
-
-}
-")
-
-```
----
-## Web portal rationalised
-
-<!-- frame the panel -->
-.panelset.sideways.right[
-
-
-.panel[.panel-name[The Problem]
-One
+  <!-- 1. **Business process perspective** -->
+  * More online bookings
+  * Simplified rostering
+  * Staff managed online
+  * Improved customer loyalty schemes
+  * Easier feedback (all segments)
+]    
+  
+.panel[.panel-name[Learning and growth perspective]
+  <!-- 1. **Learning and growth perspective** -->
+  * Improved customer service
+  * Greater possibilities to speak/teach responsible Blue
+  * Staff training medium (benefits)
 ]
-.panel[.panel-name[Our Solution]
-Two
+.panel[.panel-name[Customer perspective]
+<!-- 1  **Customer perspective** -->
+  * Excellent customer service
+  * Friendly staff
+  * Customer loyalty scheme
+  * Premium choice options
 ]
-
-.panel[.panel-name[The Team]
-Three
-
-]
-
-.panel[.panel-name[Milestones]
-Four
-
-]
-
-.panel[.panel-name[Team]
-Three
-
-]
-
-<!-- panel frame ends -->
-]
-
-
----
-# Revenue (Ability to Sustain)
-
-.left-column[### Model]
-
-.right-column[### Consumer
-### Supplier
-### Quality control    
-]
-
-
-
+]  
+???
+Balanced scorecard system
 ---
 ## Portal logframe
 
@@ -408,60 +354,6 @@ Three
 ||3. **Responsible catch restaurants** listing (*menus*?)||||
 
 
----
-## Opportunity, Solutions for a local lionfishery
-
-```{r echo=FALSE, fig.height=5, fig.width=7.5}
-DiagrammeR::grViz("digraph
-                  {graph [rankdir = RL]
-                  
-                  # primary nodes
-                  node [shape = box, fillcolor = WhiteSmoke, fontname = Helvetica, fontsize = 22, color=LightGray]
-                  
-A [label = 'Reduced strain on the coastal ecological balance '];
-
-# Row 2
-
-B [label = 'Improved take by fishers'];
-       
-C [label = 'Improved level of lionfish consumption in homes hotels  etc'];
-
-D [label = 'Improved public understanding of lionfish threat to marine ecology'];
-
-# Row 3 Col 1
-
-1 [label = 'Reward catchers with cash'];
- 
-2 [label = 'Lionfish meme hunt campaigns'];
-
-3 [label = 'Introduce and Mentor pot fishing'];
-
-# Row 3 Col 2
-
-4 [label ='Sell to restaurants, homes, eateries'];
-5 [label ='Introduce filets to nursing homes, \n Schools feeding as menu item'];
-6 [label ='Provide low cost 2kg re-usable icepacks to lionfishers '];
-
-# Row 3 col 3
-
-7 [label ='Spearfishing derbies - videoed'];
-8 [label = 'Lionfish cook-offs'];
-9 [label = 'Recycling drive \n for re-bar and fishnet chunks for pot construction'];
-                  
-                  
-# edges
-edge [color=LightGray]
-A ->{B C D};
-B ->{1 2 3};
-C ->{4 5 6};
-D ->{7 8 9};
-                  
-                  }                  
-                  ")
-
-
-
-```
 
 ---
 ## Plan for slideshow
@@ -621,7 +513,8 @@ class: center, middle
 
 # END 
 
->**But clearly, this is ours to do...!**
+>**This is ours to do..!!!
+.!**
 
 ]
 
