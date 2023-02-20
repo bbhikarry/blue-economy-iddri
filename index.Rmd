@@ -83,54 +83,85 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-## Framing IDDRI Tobago pilot
+## IDDRI's Tobago pilot in the digital space
 
-<!-- Quantify the scope of the problem and connect it to my audience -->
+<!-- Quantify the scope of the problem and connect it to my audience . Achieve this in this slide by .panelset.sideways[] -->
 
->**Keywords**: Resilience, Competitiveness, Socio-environmental sustainability, Blue oriented tourism.
+>**Keywords**: Digital Transformation Leadership, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.
 
-#### Local 'Blue' needs to be placed into a modern tech framework with data gathering and information dissemination at its core.
+#### Local 'Blue' needs to be placed into a modern tech framework (*i.e DTL*) with data gathering and information dissemination at its core.
 
-![Sustaiable development](index_files/figures/dtl.png)
 
-Objectives: To **service the Keywords** and **embed ESG partnerships**. 
+```{r echo=FALSE, fig.height=4.5, fig.width=7.5}
+
+DiagrammeR::grViz(" digraph G{ layout=dot; 
+    oneblock=true; rankdir=LR;
+node 
+[shape=plaintext,styled=true, fontname=Helvetica]
+
+A[label='Achieve SDGs '];
+B[label=' Sustain DTL '];
+C[label='  Create knowledge  '];
+D[label=' Innovate'];
+E[label=' Motivate '];
+F[label=' Align outward '];
+G[label=' Partnerships '];
+
+edge 
+[color=blue, arrowhead=vee]
+{B->C->D->E->F->G->B}->A
+}")
+
+```
+
+High objectives: To **service our Keywords** and **embed ESG partnerships**. 
 
 ---
 
-## Pushing tourism into the Blue (responsibly)
+## IDDRI's pilot in the marine space
 
-.left-column[ Recreational  &nbsp; **B.E.**  
+.left-column[ **Recreational Blue** 
 
 
-![arine adventuresM](index_files/figures/marineadv.jpeg)
-Fishery type activities are missing. One oh  momento.
+![Marine adventuresM](index_files/figures/marineadv.jpeg)
+
 ]
 
 .right-column[
-Tourism is the sector most affected by COVID. Country recovery **will** see accelerated tourism. Its sustainable growth requires tech.
+
+### Key considerations 
+
+  - Negative effects resulting from tourism can be observed on four different levels in a destination, namely: 
+    * economic well-being, 
+    * social well-being, 
+    * cultural well-being and 
+    * environmental well-being.
+
+  - Tourism is the sector most affected by COVID. Tobago's recovery **will** see accelerated tourism. Its sustainable growth requires tech.     
 ]
 
 ---
 
-## Protecting our Blue 
+## Protecting our Blue: The pilot within the Pilot 
 
 .left-column[
 *Pterois volitans* poses a major and direct threat to ecologies, ecosystems and economies.  
 
 ![Getty Image](index_files/figures/lionfish.jpg)
 
-It follows that actions to control lionfish (*population*) become priority for the tourism sector.
+It follows that actions to control lionfish is priority for the tourism sector.
 ]
 
 .right-column[*Note to self*:
-Balance pilot project actions by tackling this threat to Blue tourism and local marine ecological systems.
+Align our pilot project actions to IDDRI's sought for outcome by tackling this threat to tourism and marine ecosystems.
 
-*Hint*:  Several marine recreational activities enable lionfish tracking, hunting (catching) and serving.
+
 
 *Questions*: 
 
   1. What is the likelihood of stemming the lionfish population curve before the habitats are destroyed? 
-  1. If the probable outcome is bad why not bring in grouper (fish) from the Pacific?
+  1. What marine recreational activities might enable lionfish tracking, hunting (catching) and serving?
+  1. If the probable outcome is bad in the near term why not bring in grouper from the Pacific?
   
 >**Possible project action**: Bring Grouper from the Maldives to Tobago (Joint activity) or ar least do a desktop research on successful specie introductions
 
@@ -138,7 +169,7 @@ Balance pilot project actions by tackling this threat to Blue tourism and local 
 ---
 
 
-## Local lionfish fishery. A pilot 
+## Local lionfish fishery. (Pilot in a pilot)
 
 ||Description|Indicators|MoV|Risks and Assumptions|
 |:---|:---|:---|:---|:---|
@@ -153,13 +184,13 @@ Balance pilot project actions by tackling this threat to Blue tourism and local 
 ||5. Fish pot construction workshop||||
 
 ---
-## Local lionfishery. As opportunity
-```{r echo=FALSE, fig.height=5, fig.width=8}
+## Local lionfishery. Opportunity?
+```{r echo=FALSE, fig.height=6, fig.width=8}
 DiagrammeR::grViz("digraph
                   {graph [rankdir = LR]
                   
                   # primary nodes
-                  node [shape = box, style = filled,fillcolor = Beige, fontname = Helvetica, fontsize = 22, color=LightGray]
+                  node [shape = box, style = filled,fillcolor = Beige, fontname = Helvetica, fontsize = 22, color=Gray]
                   
 A [label = 'Reduced strain on the coastal ecological balance '];
 
@@ -195,7 +226,7 @@ D [label = 'Greater public understanding of lionfish threat \n to marine ecology
                   
                   
 # edges
-edge [color=LightGray]
+edge [color=Gray]
 A ->{B C D};
 B ->{1 2 3};
 C ->{4 5 6};
@@ -209,9 +240,32 @@ D ->{7 8 9 10 11};
 ```
 
 ---
-## Rollin in the deep
+## Rollin in the (*deep*) blue
 
 .panelset.sideways[
+
+
+---
+
+
+.panel[.panel-name[Its that time]
+
+
+
+
+Shades of Adele.....  So. We have looked at two ideas which works with/for each other and fits (as well) into the bigger scheme of IDDRI thinking. Will they do the job? Enter the acid test (next panel). 
+
+
+```{r echo=FALSE}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rYEDA3JcQqw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+```
+
+]
+
+
 .panel[.panel-name[The Approach]
 
 ```{r echo=FALSE}
@@ -246,11 +300,6 @@ B -> C-> D -> E
 ")
 
 ```
-]
-
-.panel[.panel-name[Briefly explained here]
-
-  Well we can but perhaps another time. (A lot of text goes here would video recording suffice? )
 ]
 
 ]
