@@ -1,6 +1,6 @@
 ---
-title: "Catalysing local tourism to include BLUE"
-subtitle: "Pilot Tobago: The IDDRI project"
+title: "Catalysing Tobago tourism to include BLUE"
+subtitle: "&#9798; The IDDRI pilot"
 author: 
     - "Gofers: Environment Tobago & Tobago Hotel and Tourism Association"
     - "Region Lead: Caribbean Natural Resources Institute"
@@ -11,9 +11,9 @@ output:
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
-      highlightLines: true
+      highlightLines: false
       ratio: 16:9
-      countIncrementalSlides: true
+      countIncrementalSlides: false
 ---
 
 ```{r setup, echo=FALSE}
@@ -83,42 +83,76 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-## IDDRI's Tobago pilot in the digital space
+
+
+
+
+# Virtual housekeeping moment
+
+**Press the 'H' key**. Press it again to get out.
+
+**Press 'F'**. Press it again to Undo Fullscreen
+
+**Press 'O'**. Repeat to Undo slides Overview 
+
+Navigate with ARROW KEYS.  Try  <strong>' &#10093; '</strong>
+
+### Tip
+
+In a virtual meeting with this presentation? Minimise Google Meet, Zoom etc as you will only need to hear the general  conversation. Press the 'F" key and let the app do the work.
+
+---
+layout: inverse
+
+# Welcome
+
+ We are here to discuss the Tobago implementation of the IDDRI
+
+
+
+---
+layout: false
+
+## Digital space
 
 <!-- Quantify the scope of the problem and connect it to my audience . Achieve this in this slide by .panelset.sideways[] -->
 
->**Keywords**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.
-
-#### Local 'Blue Economy' is lacking modern tech framework (*i.e DT*) with data gathering and information dissemination at its core.
 
 
-```{r echo=FALSE, fig.height=4.5, fig.width=7.5}
+Local Blue Economy is lacking a coherent/cohesive modern tech framework. Tourism can provide data gathering and information dissemination capacity well into the medium term. Win/Win! 
+
+
+
+```{r dtl, echo=FALSE, fig.height=4.5, fig.width=7.5}
 
 DiagrammeR::grViz(" digraph G{ layout=dot; 
     oneblock=true; rankdir=LR;
 node 
 [shape=plaintext,styled=true, fontname=Helvetica]
 
-A[label='Achieve SDGs '];
-B[label=' Sustainable \n Digital Transformation '];
+A[label='ACHIEVE SDGs \n SUSTAINS TOURISM '];
+B[label=' DIGITAL TRANSFORMATION'];
 C[label='  Teaches  '];
 D[label=' Motivates'];
-E[label=' Enables '];
-F[label=' Aligns '];
-G[label=' Helps partnerships '];
+E[label=' Enables partnerships '];
+F[label=' Aligns global thinking '];
+G[label=' Helps business'];
 
 edge 
-[color=LightBlue, arrowhead=vee]
-{B->C->D->E->F->G->B}->A
+[color=LightBlue, arrowhead=double]
+{B->C->D->E->F->G->B}->A;
+
 }")
 
 ```
 
-High objectives: To **service our Keywords** and **embed ESG partnerships**. 
+>**High objectives**: To service our keywords and embed ESG partnerships
+
+.footnote[**Keywords**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.]
 
 ---
 
-## IDDRI's pilot in the marine space
+## Aligning Blue with Tobago tourism
 
 .left-column[ **Recreational Blue** 
 
@@ -152,30 +186,31 @@ High objectives: To **service our Keywords** and **embed ESG partnerships**.
 It follows that actions to control lionfish is priority for the tourism sector.
 ]
 
-.right-column[*Note to self*:
-Align our pilot project actions to IDDRI's sought for outcome by tackling this threat to tourism and marine ecosystems.
+.right-column[
 
 
 
-*Questions*: 
+#### Questions: 
 
   1. What is the likelihood of stemming the lionfish population curve before the habitats are destroyed? 
   1. What marine recreational activities might enable lionfish tracking, hunting (catching) and serving?
   1. If the probable outcome is bad in the near term why not bring in grouper from the Pacific?
   
->**Possible project action**: Bring Grouper from the Maldives to Tobago (Joint activity) or ar least do a desktop research on successful specie introductions
+>&#9798; Bring Grouper from the Maldives to Tobago (Joint activity) or at least do a desktop research on successful specie introductions 
+
+&#9888; *Align our pilot project actions to IDDRI's sought outcome by tackling this threat to tourism and marine ecosystems*.
 
 ]
 ---
 
 
-## Local lionfish fishery. (Pilot in a pilot)
+## Lionfish fishery (a Tobago pilot)
 
 ||Description|Indicators|MoV|Risks and Assumptions|
 |:---|:---|:---|:---|:---|
 |Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home, villa kitchens, eateries and restaurants||||
 |Outcomes|1. Reduce and destabilise *Pterois volitans* in local waters||||
-|Outputs|1. Lionfish on a grocery shelf||||  
+|Outputs|1. Lionfish on select grocery shelves||||  
 ||2. Lionfish as a school feeding programme menu item ||||
 |Activities|1. Diver derby||||
 ||2. Prep workshop in Hotel & Tourism School||||
@@ -184,8 +219,8 @@ Align our pilot project actions to IDDRI's sought for outcome by tackling this t
 ||5. Fish pot construction workshop||||
 
 ---
-## Local lionfishery. Opportunity?
-```{r echo=FALSE, fig.height=6, fig.width=8}
+## Lionfishery. Problem becomes Opportunity &#8623;
+```{r opportune, echo=FALSE, fig.height=6, fig.width=8}
 DiagrammeR::grViz("digraph
                   {graph [rankdir = LR]
                   
@@ -242,70 +277,68 @@ D ->{7 8 9 10 11};
 
 .panelset.sideways[
 
-
----
-
-
 .panel[.panel-name[Its that time]
 
 
 
-
-Shades of Adele.....  So. We have looked at two ideas which works with/for each other and fits (as well) into the bigger scheme of IDDRI thinking. Will they do the job? Enter the acid test (next panel). 
+*Shades of Adele*.....  So. We have looked at two ideas which works with/for each other. Will they fit into the IDDRI parent project?. Let's compare Theory of Change against Logical Framework (Cos our pilots are for business development). 
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fmCoUjOMXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 ]
 
 
-.panel[.panel-name[The Approach]
+.panel[.panel-name[The TOC Approach]
 
-```{r echo=FALSE}
 
-DiagrammeR::grViz("digraph {
+```{r toc, echo=FALSE}
 
-graph[rankdir = TB]
+DiagrammeR::grViz(" digraph { rankdir = LR; layout = dot; oneblock = true;
 
 #nodes
-node[shape = rectangle, style = filled, fontname = Helvetica, fixedsize = false]
 
-A [shape = folder, fillcolor = Beige, label = 'Validate with evidence \n and stakeholder consultation']; 
+  node [shape = box, fontname = Helvetica]
+
+A [shape = plaintext, label = 'Each step validated with \n evidence and stakeholder consultation'];
 
 
-subgraph
-{rank = same; 
-node[shape = box, style = filled, fixedsize = false]
+  subgraph{ rank = same;
+    node [shape= box, style = filled]
 
-B [label = 'Step 1 \n Focus', fillcolor = orange]; 
-C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = yellow];
+B [label = 'Step 1 \n Focus', fillcolor = Yellow]; 
+C [label = 'Step 2 \n  Identify what is needed for change ', fillcolor = Yellow];
 }
 
-subgraph{rank = same; 
-D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = LightGoldenrodYellow]; E [label = 'Step 4 \n Identify partners and actors', fillcolor = LightYellow];}
+  subgraph { rank = same; 
+    node [shape= box, style = filled]
+D [label = 'Step 3 \n Reflect assumptions and risks', fillcolor = Yellow]; 
+E [label = 'Step 4 \n Identify partners and actors', fillcolor = Yellow];
+}
 
 # edge
-edge [arrowhead=vee, color = blue]
+    edge [arrowhead=vee, color = LightBlue]
 
-B -> C-> D -> E
+B -> C-> D -> E;
 
 }
-")
 
+")
 ```
+
+
 ]
 
 ]
 
 ---
-## Web services
+## Justifying Digital Transformation
 
 .panelset.sideways[
 
 .panel[.panel-name[Financial perspective]
-
+## &dollar;   &nbsp; &euro; &nbsp; &pound;
   <!-- 1. **Financial perspective** -->
   * Increased business
   * Reduced input costs 
@@ -314,26 +347,33 @@ B -> C-> D -> E
     
 .panel[.panel-name[ Business process perspective] 
 
-  <!-- 1. **Business process perspective** -->
+# &#9730;
   * More online bookings
   * Simplified rostering
   * Staff managed online
   * Improved customer loyalty schemes
   * Easier feedback (all segments)
+  
+
 ]    
   
 .panel[.panel-name[Learning and growth perspective]
-  <!-- 1. **Learning and growth perspective** -->
+
+# &#9729;  
+
   * Improved customer service
   * Greater possibilities to speak/teach responsible Blue
   * Staff training medium (benefits)
 ]
 .panel[.panel-name[Customer perspective]
-<!-- 1  **Customer perspective** -->
+# &#9787;
+
   * Excellent customer service
   * Friendly staff
   * Customer loyalty scheme
   * Premium choice options
+  
+
 ]
 ]  
 ???
