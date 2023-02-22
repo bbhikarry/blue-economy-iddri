@@ -1,9 +1,9 @@
 ---
-title: "Catalysing Tobago tourism to include BLUE"
-subtitle: "&#9798; The IDDRI pilot"
+title: "Catalysing Tourism to include BLUE"
+subtitle: "&#9798; The IDDRI Tobago pilot"
 author: 
-    - "Gofers: Environment Tobago & Tobago Hotel and Tourism Association"
-    - "Region Lead: Caribbean Natural Resources Institute"
+    - "Gofers: `r et` & `r thata`"
+    - "Pilot Lead: `r canari`"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -83,10 +83,6 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-
-
-
-
 # Virtual housekeeping moment
 
 **Press the 'H' key**. Press it again to get out.
@@ -101,25 +97,26 @@ Navigate with ARROW KEYS.  Try  <strong>' &#10093; '</strong>
 
 In a virtual meeting with this presentation? Minimise Google Meet, Zoom etc as you will only need to hear the general  conversation. Press the 'F" key and let the app do the work.
 
+-go2021
+--
+name: welcome-slide
+
+## Welcome
+
+ We are here to discuss the Tobago implementation of the IDDRI [Blue Economy](#blu) Project
+
+
+
 ---
-layout: inverse
-
-# Welcome
-
- We are here to discuss the Tobago implementation of the IDDRI
-
-
-
----
-layout: false
-
-## Digital space
+## Tobago's tourism space and digitisation
 
 <!-- Quantify the scope of the problem and connect it to my audience . Achieve this in this slide by .panelset.sideways[] -->
 
 
 
-Local Blue Economy is lacking a coherent/cohesive modern tech framework. Tourism can provide data gathering and information dissemination capacity well into the medium term. Win/Win! 
+<img src="index_files/figures/thumbs-down.png",width='15', height='15'/>  Local Blue Economy is lacking a coherent/cohesive modern tech framework.   
+Tourism can provide data gathering and information dissemination capacity well into the medium term. <img src="index_files/figures/thumbs-up.png",width='15', height='15'/>
+
 
 
 
@@ -146,15 +143,15 @@ edge
 
 ```
 
->**High objectives**: To service our keywords and embed ESG partnerships
 
-.footnote[**Keywords**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability, Blue tourism.]
+
+>**Key objectives**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability
 
 ---
 
-## Aligning Blue with Tobago tourism
+## Aligning Tobago tourism with global BLUE
 
-.left-column[ **Recreational Blue** 
+.left-column[ ** Blue recreation**  
 
 
 ![Marine adventuresM](index_files/figures/marineadv.jpeg)
@@ -163,20 +160,22 @@ edge
 
 .right-column[
 
-### Key considerations 
+### Consider...
 
-  - Negative effects resulting from tourism can be observed on four different levels in a destination, namely: 
-    * economic well-being, 
-    * social well-being, 
-    * cultural well-being and 
-    * environmental well-being.
+Negative effects resulting from tourism can be observed on different levels namely; 
 
-  - Tourism is the sector most affected by COVID. Tobago's recovery **will** see accelerated tourism. Its sustainable growth requires tech.     
+  * the island's economic well-being, 
+  * the population's social well-being, 
+  * its cultural well-being and
+  * its environmental well-being.
+
+Tourism is the sector most affected by COVID. Tobago's recovery **will** see accelerated tourism. 
+  * Sustainable growth requires tech to walk the talk   
 ]
 
 ---
 
-## Protecting our Blue: The pilot within the Pilot 
+## ProtectBlue: Pilot within pilot
 
 .left-column[
 *Pterois volitans* poses a major and direct threat to ecologies, ecosystems and economies.  
@@ -201,24 +200,14 @@ It follows that actions to control lionfish is priority for the tourism sector.
 &#9888; *Align our pilot project actions to IDDRI's sought outcome by tackling this threat to tourism and marine ecosystems*.
 
 ]
+
+???
+Hashtag #ProtectBlue
+
+
 ---
 
 
-## Lionfish fishery (a Tobago pilot)
-
-||Description|Indicators|MoV|Risks and Assumptions|
-|:---|:---|:---|:---|:---|
-|Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home, villa kitchens, eateries and restaurants||||
-|Outcomes|1. Reduce and destabilise *Pterois volitans* in local waters||||
-|Outputs|1. Lionfish on select grocery shelves||||  
-||2. Lionfish as a school feeding programme menu item ||||
-|Activities|1. Diver derby||||
-||2. Prep workshop in Hotel & Tourism School||||
-||3. Prep workshop at Schools Nutrition Center ||||
-||4. Responsible fish cook-off||||
-||5. Fish pot construction workshop||||
-
----
 ## Lionfishery. Problem becomes Opportunity &#8623;
 ```{r opportune, echo=FALSE, fig.height=6, fig.width=8}
 DiagrammeR::grViz("digraph
@@ -272,6 +261,26 @@ D ->{7 8 9 10 11};
 
 ```
 
+
+
+
+---
+
+
+## Lionfish fishery (a Tobago pilot)
+
+||Description|Indicators|MoV|Risks and Assumptions|
+|:---|:---|:---|:---|:---|
+|Goal|1. Establish lionfish as a responsible meal for breakfast, lunch or dinner in home, villa kitchens, eateries and restaurants||||
+|Outcomes|1. Reduce and destabilise *Pterois volitans* in local waters||||
+|Outputs|1. Lionfish on select grocery shelves||||  
+||2. Lionfish on the School Feeding Programme menu ||||
+|Activities|1. Diver derby||||
+||2. Prep workshop in Hotel & Tourism School||||
+||3. Prep workshop at Schools Nutrition Center ||||
+||4. First Lionfish Cook-Off||||
+||5. Fishpot construction, deployment and retrieval workshop||||
+
 ---
 ## Rollin in the (*deep*) blue
 
@@ -281,7 +290,9 @@ D ->{7 8 9 10 11};
 
 
 
-*Shades of Adele*.....  So. We have looked at two ideas which works with/for each other. Will they fit into the IDDRI parent project?. Let's compare Theory of Change against Logical Framework (Cos our pilots are for business development). 
+*Shades of Adele*.....  So. We have looked at a Lionfishery which works with/for the [IDDRI parent project?](#blu). Now for the Web portal aspect.
+
+<!-- TOC coming up in .panel-set[The TOC Approach] -->
 
 
 
@@ -326,11 +337,62 @@ B -> C-> D -> E;
 
 ")
 ```
+] ]
 
+???
+Will this work?
+---
+## Expanded view TOC for web portal
+
+.panelset.sideways[
+
+.panel[.panel-name[Step 1. Focus]
+
+  *Focus is on high level change*.   
+  
+  A combo of two parts. Improved bookings And an SDG aware community (more tourists and a visible drive to predate lionfish in coastal waters)  
+ ]   
+    
+.panel[.panel-name[Step 2. Needs]   
+
+  *What is needed for these things to happen*?  
+  
+  A digital platform (because it is common to local community [businesses and homes] and a sustained public awareness campaign. We use lionfish because it does require timely action if we are to protect the 'seacology')   
+    ]
+
+.panel[.panel-name[Step 3. Assumptions]
+
+ *Assumptions and Risks are established and made explicit for both Web portal & Lionfishery*:      
+
+  * Assumption: A third party event management entity that is directly responsible to customers has more credibility with the punter than a government agency or the THTA
+  * Assumption: Increasing the flow of online traffic in the tourism sector 
+      - emphasises the logic of responsible use of resources to tourism stakeholders and actors in other sectors 
+      - sensitises the public to the threat that is *Pterois volitans*
+      - 'Responsibly' fished fish (lionfish and other species) can be sold over the Internet
+      - sends the message to potential visitors that Tobago is positioning its tourism (at least in the marine space) for sustainability
+  * Assumption: A common booking on-platform module will
+      - increase the presence of available rooms as roomstock is not easy to find and or fact check outside Tobago
+      - allow for [a measure] of standardisation for island services and properties  
+]
+
+.panel[.panel-name[Step 3. . ... Risks]
+
+*Risks are established and made explicit for both Web portal & Lionfishery*:
+
+
+  * Risk: The cost of running the web portal has to be covered by commissions from participating business    
+  * Risk: 'Responsibly' caught lionfish has to financially viable for the operating entity to survive beyond the project's term
 
 ]
 
-]
+
+.panel[.panel-name[Step 4]
+*Taking into account Assumptions and Risks, who are the partners actors most relevant to achieving each result*? 
+  * Get In Touch Co
+  * Environment Tobago
+  * THTA
+
+] ]
 
 ---
 ## Justifying Digital Transformation
@@ -539,22 +601,26 @@ class: center, middle
 
 
 ---
-## Blue Economy
+name: blu
 
-“An economic activity that directly or indirectly uses ocean or river resources as an input, and that contributes or does not negatively affect the health and sustainability of ocean and river ecosystems. It emphasises conservation and sustainable management based on the idea that healthy ocean ecosystems are more productive and are fundamental to sustainable, ocean-based economies. Sustainable management implies that economic activity is in balance with the long-term capacity of ocean ecosystems to support such activity..”
+## Blue Economy 
 
- (Compete Caribbean 2021)
+
+>“An economic activity that directly or indirectly uses ocean or river resources as an input, and contributes or does not negatively affect the health and sustainability of ocean and river ecosystems. It emphasises conservation and sustainable management based on the idea that healthy ocean ecosystems are more productive and therefore fundamental to sustainable, ocean-based economies. Further, sustainable management implies that economic activity is in balance with the long-term capacity of ocean ecosystems to support such activity..”
+
+ (*Compete Caribbean 2021*)  [Back](#welcome-slide)
+
+
 ---
 
 
-class: center, middle
+class: inverse, right, bottom
 
 .can-edit[
 
-# END 
+# Thank you
 
->**This is ours to do..!!!
-.!**
+
 
 ]
 
