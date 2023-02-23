@@ -1,9 +1,9 @@
 ---
-title: "Catalysing Tourism to include BLUE"
-subtitle: "&#9798; The IDDRI Tobago pilot"
+title: "Catalysing Blue Tourism in a Post Covid-19 Tobago"
+subtitle: "&#9798; The IDDRI ECO UNION pilot"
 author: 
-    - "Gofers: `r et` & `r thata`"
-    - "Pilot Lead: `r canari`"
+    - " Gofers"
+    - " Pilot Lead "
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -48,6 +48,7 @@ bb <-"Bertrand Bhikarry"
 ```
 
 ```{r, include=FALSE}
+
 et <-"Environment Tobago"
 ```
 ```{r, include=FALSE}
@@ -83,22 +84,22 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-# Virtual housekeeping moment
+## A moment for virtual housekeeping
 
 **Press the 'H' key**. Press it again to get out.
 
-**Press 'F'**. Press it again to Undo Fullscreen
+**Press 'F'**. Press it again to Undo FullScreen
 
-**Press 'O'**. Repeat to Undo slides Overview 
+**Press 'O'**. Repeat to Undo Overview 
 
 Navigate with ARROW KEYS.  Try  <strong>' &#10093; '</strong>
 
 ### Tip
+ Press the 'F" key and let the app do the work.
 
-In a virtual meeting with this presentation? Minimise Google Meet, Zoom etc as you will only need to hear the general  conversation. Press the 'F" key and let the app do the work.
-
--go2021
---
+???
+Slide 2
+---
 name: welcome-slide
 
 ## Welcome
@@ -106,11 +107,13 @@ name: welcome-slide
  We are here to discuss the Tobago implementation of the IDDRI [Blue Economy](#blu) Project
 
 
-
+???
+Slide 3
 ---
-## Tobago's tourism space and digitisation
+name: dtf
+##  Tourism and digitisation (Hand in glove)
 
-<!-- Quantify the scope of the problem and connect it to my audience . Achieve this in this slide by .panelset.sideways[] -->
+<!-- Quantify the scope of the problem and connect it to my audience -->
 
 
 
@@ -147,11 +150,14 @@ edge
 
 >**Key objectives**: Digital Transformation, Resilience, Competitiveness, Socio-environmental sustainability
 
+???
+If I came here from 'TOC Expanded /Needs' and want to go back: 9+ENTER
+
 ---
 
 ## Aligning Tobago tourism with global BLUE
 
-.left-column[ ** Blue recreation**  
+.left-column[ **Blue recreation**  
 
 
 ![Marine adventuresM](index_files/figures/marineadv.jpeg)
@@ -175,7 +181,7 @@ Tourism is the sector most affected by COVID. Tobago's recovery **will** see acc
 
 ---
 
-## ProtectBlue: Pilot within pilot
+## Protect Blue: Pilot within pilot
 
 .left-column[
 *Pterois volitans* poses a major and direct threat to ecologies, ecosystems and economies.  
@@ -193,7 +199,8 @@ It follows that actions to control lionfish is priority for the tourism sector.
 
   1. What is the likelihood of stemming the lionfish population curve before the habitats are destroyed? 
   1. What marine recreational activities might enable lionfish tracking, hunting (catching) and serving?
-  1. If the probable outcome is bad in the near term why not bring in grouper from the Pacific?
+  1. If the probable outcome is bad in the near term why not bring in grouper from the Pacific?  
+  1. Gender balance in the proposed fishery?
   
 >&#9798; Bring Grouper from the Maldives to Tobago (Joint activity) or at least do a desktop research on successful specie introductions 
 
@@ -204,11 +211,14 @@ It follows that actions to control lionfish is priority for the tourism sector.
 ???
 Hashtag #ProtectBlue
 
+Achieving Gender balance in the proposed fishery will require program funds in the early stages to access markets - allowing the business will be run by women. Further, technological assistance may be required in-project. 
+
 
 ---
 
 
 ## Lionfishery. Problem becomes Opportunity &#8623;
+
 ```{r opportune, echo=FALSE, fig.height=6, fig.width=8}
 DiagrammeR::grViz("digraph
                   {graph [rankdir = LR]
@@ -282,7 +292,7 @@ D ->{7 8 9 10 11};
 ||5. Fishpot construction, deployment and retrieval workshop||||
 
 ---
-## Rollin in the (*deep*) blue
+## Coffee break (Documentary)
 
 .panelset.sideways[
 
@@ -290,18 +300,18 @@ D ->{7 8 9 10 11};
 
 
 
-*Shades of Adele*.....  So. We have looked at a Lionfishery which works with/for the [IDDRI parent project?](#blu). Now for the Web portal aspect.
+.....  So. We have looked at a lionfish initiative using the Logical Framework. How about we test it using the Theory Of Change approach? 
 
 <!-- TOC coming up in .panel-set[The TOC Approach] -->
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-fmCoUjOMXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/380CE6sTLzk?controls=0&amp;start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ]
 
 
-.panel[.panel-name[The TOC Approach]
+.panel[.panel-name[Theory of Change Approach]
 
 
 ```{r toc, echo=FALSE}
@@ -340,9 +350,13 @@ B -> C-> D -> E;
 ] ]
 
 ???
-Will this work?
+Explain the Diff between LF and TOC.
 ---
-## Expanded view TOC for web portal
+## TOC. Expanded
+
+
+
+
 
 .panelset.sideways[
 
@@ -355,39 +369,52 @@ Will this work?
     
 .panel[.panel-name[Step 2. Needs]   
 
-  *What is needed for these things to happen*?  
+  >*What is needed for these things to happen*?  
   
-  A digital platform (because it is common to local community [businesses and homes] and a sustained public awareness campaign. We use lionfish because it does require timely action if we are to protect the 'seacology')   
+  1. [**A digital hub**](#dtf) with relevant content for/and by, local community, businesses, homes and the respective travel markets. 
+  
+  1. A sustained **public awareness campaign** to kill/sell/buy/eat lionfish, seeking to ease grouper and snapper fishing.....
+  
+  1. **A business venture** dealing in 'responsibly' caught (and grown) foods for home, hospitality, health and school feeding sectors. To include the away market...
+  
+
     ]
 
 .panel[.panel-name[Step 3. Assumptions]
 
- *Assumptions and Risks are established and made explicit for both Web portal & Lionfishery*:      
+ >**Assumptions**: For portal & lionfishery      
 
-  * Assumption: A third party event management entity that is directly responsible to customers has more credibility with the punter than a government agency or the THTA
-  * Assumption: Increasing the flow of online traffic in the tourism sector 
-      - emphasises the logic of responsible use of resources to tourism stakeholders and actors in other sectors 
-      - sensitises the public to the threat that is *Pterois volitans*
-      - 'Responsibly' fished fish (lionfish and other species) can be sold over the Internet
-      - sends the message to potential visitors that Tobago is positioning its tourism (at least in the marine space) for sustainability
-  * Assumption: A common booking on-platform module will
-      - increase the presence of available rooms as roomstock is not easy to find and or fact check outside Tobago
-      - allow for [a measure] of standardisation for island services and properties  
+  1. Third party bookings (f.e Expedia) is a credible model
+  1. Online bookings (room and tour) will be positively impacted by a web application which;  
+    - emphasises responsible use of resources to tourism stakeholders
+    - sensitises the public to the threat that is *Pterois volitans*  
+  1. Project impacts national policy and thinking; 
+    - by placing natural lionfish predators (grouper and snapper) on a 'protected' list   
+    - by selling 'responsibly' fished (lionfish and other species) via Internet  
+  1. A Common booking module will
+    - increase visibility of roomstock
+    - allow (some) standardisation to global benchmarks
 ]
 
 .panel[.panel-name[Step 3. . ... Risks]
 
-*Risks are established and made explicit for both Web portal & Lionfishery*:
+>**Risks** - to both portal & lionfishery
 
 
-  * Risk: The cost of running the web portal has to be covered by commissions from participating business    
-  * Risk: 'Responsibly' caught lionfish has to financially viable for the operating entity to survive beyond the project's term
+  1. Can the cost of running the portal be covered solely by fees from participant businesses? 
+  
+  1. Will lionfish find fishtraps attractive?
+  (so the processors can survive)
+  
+  1. Will fisherfolk will buy into the 'responsible' approach of leaving  natural lionfish predators to thrive?
 
 ]
 
 
-.panel[.panel-name[Step 4]
+.panel[.panel-name[Step 4 Partners]
+
 *Taking into account Assumptions and Risks, who are the partners actors most relevant to achieving each result*? 
+
   * Get In Touch Co
   * Environment Tobago
   * THTA
@@ -438,8 +465,10 @@ Will this work?
 
 ]
 ]  
+
 ???
 Balanced scorecard system
+
 ---
 ## Portal logframe
 
@@ -458,31 +487,126 @@ Balanced scorecard system
 
 
 ---
-## Plan for slideshow
+## Partnership potential (Just within THTA)
 
-Separate the mini-projects Lionfish and Get In Touch web like;
+.panelset.sideways[
 
-**Logical Frame for Lionfishery project**
-
-Useful and well understood for project proposing, implementation and reporting
+.panel[.panel-name[Allied Sector]
 
 
-**Theory of Change for Website.**
+```{r alliedsector, echo=FALSE, paged.print=TRUE}
 
-TOC helps to diagrammatically keep the bigger picture in sight wcwn as the discussions delve down to resource acquisition, usage and reporting.
+library(readr)
+  allies <- read_csv("sheets/alliedSheet1.csv", skip = 1, 
+                 show_col_types = TRUE,
+col_names=c("BUSINESS NAME","","","REPRESENTATIVE","","EMAIL ADDRESS", "","","","UNIQUE ID")
+
+)
+# create variable with the desired data
+   alx = allies[c(1,4)]
+
+
+knitr::kable(head(alx, format = 'html', n = 12))
+
+
+```  
+
+]
+
+.panel[.panel-name[Restaurants]
+
+
+```{r restaurant, echo=FALSE, paged.print=TRUE, show_col_types=TRUE}
+library(readr)
+  restaurants <- read_csv("sheets/restaurantsSheet1.csv", skip = 1,
+col_names=c("ESTABLISHMENT","","","REPRESENTATIVE","","EMAIL ADDRESS", "","","","UNIQUE ID") )
+# create variable with the desired data
+  res = restaurants[c(1,4)]
+
+#print(res)
+  
+knitr::kable(head(res, format = 'html', n = 12))  
+       
+```
+]
+
+.panel[.panel-name[Villas and Cottages]
+
+```{r villascottages, echo=FALSE, paged.print=TRUE}
+
+library(readr)
+vilcot <- read_csv("sheets/villasCottagesSheet1.csv",  skip= 10,
+                  show_col_types = TRUE ,
+                   col_names=c("PROPERTY NAME","","","REPRESENTATIVE","","EMAIL ADDRESS","","","","UNIQUE ID") )
+vc = vilcot[c(1,4)]
+
+# print(vc, n=10)  
+knitr::kable(head(vc, format = 'html', n = 10))
+
+```
+
+]
+
+.panel[.panel-name[Large Hotels]
+
+
+```{r bighotels, echo=FALSE, paged.print=TRUE}
+library(readr)
+  bigAccs <- read_csv("sheets/largeSheet1.csv", skip = 1,
+                      
+col_names=c("PROPERTY NAME","","","REPRESENTATIVE","","EMAIL ADDRESS", "","","","UNIQUE ID") )
+# create variable with the desired data
+  bac = bigAccs[c(1,4)]
+  
+# print(bac)  
+knitr::kable(head(bac, format = 'html', n = 12))  
+  
+```  
+
+]
 
 
 
+.panel[.panel-name[Smaller Hotels]
+
+```{r echo=FALSE, paged.print=FALSE}
+
+library(readr)
+
+smallaccs <- read_csv("sheets/smallAcc.csv", skip=1,
+                      show_col_types = TRUE,
+ col_names=c("PROPERTY NAME","REPRESENTATIVE","EMAIL ADDRESS" ,"UNIQUE ID"))
+
+smx = smallaccs[c(1,2)]
+    
+#print(smx)   
+knitr::kable(head(smx, format = 'html', n = 12))
+
+```
+]
+
+
+
+
+
+]
 
 ---
 layout: false
 
-## Project Leader
+## Project Leaders
 
-<center>
+.pull-left[
+
+ ![](https://chi01pap002files.storage.live.com/y4mnX45yOrpkNWkYm1kT6k37HddNppmm9Pte1P1vOZcJ5_hRnxCZRdxgz5Rh0d7z8JPCFcB-paa4IBptD4l3xtVRm_ueAxqnWPnn3hLbvTPScKLkHCAezEWADpjybiDWd-FzTvRlPaVnllIyrZyp4ejHGpQ40FS2a-dtObJkSycVkeobtoG0yalz6VFBJwpGrc1?width=232&height=256&cropmode=none)
+ 
+]
+
+.pull-right[
+
 <img src="https://www.cd-links.org/wp-content/uploads/2015/09/IDDRI2015-transparent-300x300.png" alt="IDDRI" height="300px"/>
-</center>
 
+]
 ---
 
 ## Need to know
@@ -575,18 +699,23 @@ Applications will be evaluated and scored (*closest to 60 pts*)
 ---
 
 
-## A quick check before applying
-
+## A quick check before diving in
+.pull-left[
 Does this project fits Tobago's
 
 
 1. <input type="checkbox" checked> developmental outlook</input>
 
-1. <input type= "checkbox" checked> benefits investors</input>,
+1. <input type= "checkbox" unchecked> benefits investors</input>,
 
-1. <input type= "checkbox" checked> local stakeholders</input> and 
+1. <input type= "checkbox" unchecked> local stakeholders</input> and 
 
-1. <input type= "checkbox" checked> visitors</input>
+1. <input type= "checkbox" unchecked> visitors</input>
+]
+.pull-right[
+
+Probably a good idea to think this thru
+]
 
 ---
 class: center, middle
@@ -612,7 +741,12 @@ name: blu
 
 
 ---
+## Table
 
+```{r}
+knitr::kable(head(alx), format = 'html')
+```
+---
 
 class: inverse, right, bottom
 
