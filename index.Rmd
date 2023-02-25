@@ -2,8 +2,8 @@
 title: "Catalysing Blue Tourism in a Post Covid-19 Tobago"
 subtitle: "&#9798; The IDDRI ECO UNION pilot"
 author: 
-    - " Gofers"
-    - " Pilot Lead "
+    - " Gofers - `r et`, `r thata`  "
+    - " Pilot Lead, `r canari`  "
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -292,7 +292,7 @@ D ->{7 8 9 10 11};
 ||5. Fishpot construction, deployment and retrieval workshop||||
 
 ---
-## Coffee break (Documentary)
+## So....
 
 .panelset.sideways[
 
@@ -300,7 +300,7 @@ D ->{7 8 9 10 11};
 
 
 
-.....  So. We have looked at a lionfish initiative using the Logical Framework. How about we test it using the Theory Of Change approach? 
+.....  We have looked at a lionfish initiative using the Logical Framework. How about we test it using the Theory Of Change approach? 
 
 <!-- TOC coming up in .panel-set[The TOC Approach] -->
 
